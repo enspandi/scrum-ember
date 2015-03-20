@@ -1,0 +1,38 @@
+ /* Tables */
+.table, .table-vertical {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.table th {
+  font-weight: normal;
+  color: #757575;
+}
+.table th,
+.table td {
+  text-align: left;
+  padding: 10px;
+}
+.table-hover tbody tr:hover{
+  cursor: pointer;
+  background-color: white;
+}
+tr.selected {
+  background-color: white;
+}
+tr.selected td:first-child {
+  font-weight: bold;
+}
+
+textarea {
+  min-width: 600px;
+  min-height: 150px;
+}
+.table.table-vertical th,  .table.table-vertical td {
+  padding: 1px;
+}

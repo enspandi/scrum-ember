@@ -1,0 +1,22 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-rendering: optimizelegibility;
+}
+a {
+  text-decoration: none;
+  color: #757575;
+}
+a:hover {
+  color: #2196F3;
+  text-decoration: underline;
+}
+.active {
+  color: #2196F3;
+  background-color: #ededed !important;
+}
+h1, h2 {
+  font-weight: normal;
+  margin: 40px 0 20px;
+}
+h1 { font-size: 24px; }
+h2 { font-size: 18px; }

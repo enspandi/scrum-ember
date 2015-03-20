@@ -1,3 +1,28 @@
-h2 id="title" Welcome to Ember.js
+section class="columns"
+  div class="left-column"
+    nav class="vertical-list"
+      h2 General
+      ul
+        li
+          a href="#" Documents
 
-= outlet
+      h2 Infrastructure Team
+      ul
+        li
+          a href="#" class="active"
+            | Inbox
+            span class="badge"
+              | 3
+        li
+          a href="#" Backlog
+        li
+          a href="#" Sprint
+        li
+          a href="#" Done
+
+      div class="container"
+        a class="btn btn-primary js-create-project" href="#" Start a New Project
+
+  div class="right-column"
+    div class="container"
+      = outlet

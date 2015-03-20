@@ -1,0 +1,45 @@
+/* Horizontal List */
+.horizontal-list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.horizontal-list a {
+  display: inline-block;
+  width: 165px;
+  padding: 27px 0;
+  text-align: center;
+
+  font-size: 18px;
+  border-bottom: 2px solid white;
+}
+.horizontal-list a.active {
+  border-bottom: 2px solid #2196F3;
+}
+.horizontal-list a:hover {
+  border-bottom: 2px solid #2196F3;
+  text-decoration: none;
+}
+
+/* Vertical List */
+.vertical-list {
+  padding: 5px 0 0 25px;
+  border-right: 1px solid #E0E0E0;
+}
+.vertical-list a {
+  padding: 10px 15px;
+  display: block;
+  border-left: 2px solid transparent;
+}
+.vertical-list ul {
+  margin: 15px 0 0 0;
+}
+.vertical-list .container {
+  margin: 15px 0;
+}
+.vertical-list a.active {
+  margin-right: -1px;
+  border-left: 6px solid #2196F3;
+  border-radius: 1px;
+}
